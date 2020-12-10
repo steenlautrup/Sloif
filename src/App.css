@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.content {
+  margin-left: 16rem;
+  padding: 1rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tabs {
+  text-align: left;
+  /*margin-top: 20px;*/
+  min-width: 500px;
+}
+
+.org {
+  display: flex;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.group:hover {
+  background-color: #f2f2f2;
+}
+
+.group-number {
+  margin-left: 20px
+}
+
+.org-title {
+  min-width: 300px;
+}
+
+.org-score {}
+
+.group-score {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9BCDA3;
+  color: #425558;
+  font-size: 13px;
+}
+
+.ant-list-vertical .ant-list-item-meta {
+  margin-bottom: 0 !important;
+}
+
+.loader {
+  position: fixed;
+  left: 260px;
+  background-color: rgba(255,255,255,.75);
+  z-index: 1;
+  top: 0;
+  width: 620px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

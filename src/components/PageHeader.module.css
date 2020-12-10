@@ -1,0 +1,26 @@
+.header {
+  width: 600px;
+}
+
+:global(.ant-page-header) {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.stat-row {
+  display: flex !important;
+  margin-top: 20px;
+}
+
+.stat-row span {
+  flex-grow: 1;
+}
+
+.stat-block {
+  margin-right: 32px !important;
+}
+
+:global(.ant-statistic .ant-statistic-title) {
+  color: #444;
+  font-size: 14px;
+}
